@@ -32,11 +32,11 @@
 	<lights_tube/>
 	<screens/>
 	<edit_areas>
-		<edit_area id="bed_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
+		<edit_area id="bed_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="255" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
 			<transform 00="-0.558276" 01="0" 02="0.829656" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.829656" 21="0" 22="-0.558276" 23="0" 30="32.237537" 31="8.263733" 32="45.875816" 33="1"/>
 			<size x="255" y="255" z="255"/>
 		</edit_area>
-		<edit_area id="bed_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
+		<edit_area id="bed_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="255" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
 			<transform 00="-0.558276" 01="0" 02="0.829656" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.829656" 21="0" 22="-0.558276" 23="0" 30="32.237537" 31="9.324188" 32="45.875816" 33="1"/>
 			<size x="255" y="255" z="255"/>
 		</edit_area>

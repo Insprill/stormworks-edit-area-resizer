@@ -15,6 +15,8 @@ public class Main {
 
 	private static final String[] ARGS = new String[0];
 	private static final Pattern SIZE_PATTERN = Pattern.compile("(\\d*\\.)?\\d+");
+	private static final String GRID_SIZE_STR = "grid_size=\"%s\"";
+	private static final Pattern GRID_SIZE_PATTERN = Pattern.compile(String.format(GRID_SIZE_STR, "((\\d*\\.)?\\d+)"));
 
 	public static void main(String[] args) throws Exception {
 		try (BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in))) {
@@ -71,8 +73,11 @@ public class Main {
 				finishedEdit = true;
 			}
 
-			if (inEditArea && trimmed.startsWith("<size")) {
+			if (inEditArea && trimmed.startsWith("<size ")) {
 				line = SIZE_PATTERN.matcher(line).replaceAll(size);
+			}
+			if (inEditArea && trimmed.startsWith("<edit_area ")) {
+				line = GRID_SIZE_PATTERN.matcher(line).replaceAll(String.format(GRID_SIZE_STR, size));
 			}
 			newLines.add(line);
 		}

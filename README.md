@@ -6,73 +6,34 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
+
+<h1 align="center">Stormworks Edit Area Resizer</h1>
 <p align="center">
-  <!-- <a href="https://github.com/Insprill/StormworksEditAreaResizer">
-     <img src="logo.png" alt="Logo" width="500" height="500">
-  </a> -->
-
-<h3 align="center">Stormworks Edit Area Resizer</h3>
-
-  <p align="center">
-    <a href="https://github.com/Insprill/StormworksEditAreaResizer/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Insprill/StormworksEditAreaResizer/issues">Request Feature</a>
-  </p>
+  A simple Python script to change the size of all edit areas in <a href="https://store.steampowered.com/app/573090">Stormworks</a>.
+  <br />
+  <br />
+  <a href="https://github.com/Insprill/StormworksEditAreaResizer/issues">Report Bugs</a>
+  ·
+  <a href="https://github.com/Insprill/StormworksEditAreaResizer/issues">Request Features</a>
+</p>
 
 
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- USAGE EXAMPLES -->
 
-## Table of Contents
+## Usage
 
-* [About The Project](#about-the-project)
-* [Using]("#using")
-* [Building]("#building")
-* [License]("#license")
-* [Support]("#support")
-* [Contact]("#contact")
+If you're unsure how to run Python scripts, follow [this](https://realpython.com/run-python-scripts/) tutorial.  
 
+Once you run it you'll be prompted to enter the path to your stormworks installation  
+(eg. `C:\Program Files (x86)\Steam\steamapps\common\Stormworks`)  
+and the new size. This can be anywhere from 1 to 255.
 
+Then the script will modify every edit area in the game to the new size.
 
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-SEAR is a simple tool designed to quickly modify the sizes of all edit areas in [Stormworks](https://store.steampowered.com/app/573090/).
-
-
-
-
-<!-- USAGE -->
-
-## Using
-
-Using SEAR is very easy. 
-1. Navigate to the [releases](https://github.com/Insprill/StormworksEditAreaResizer/releases) tab and download the latest jar.
-2. Create a batch file to run the jar. Here is an example
-```batch
-@echo off
-java -jar StormworksEditAreaResizer-1.0.0.jar
-pause
-```
-3. Run the batch file, follow the instructions, and you'll be good to go!
-
-
-
-
-<!-- BUILDING -->
-
-## Building
-
-1. Install [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/).
-2. Go to `File` -> `New` -> `Project from Version Control` and enter this URL: `https://github.com/Insprill/StormworksEditAreaResizer.git`.
-3. Go to `View` -> `Tool Windows` -> `Gradle` to open the Gradle tool window, then in the window that opened, navigate to `StormworksEditAreaResizer` -> `Tasks` -> `build`.
-4. Double click `build` and wait for it to finish.
-5. The freshly compiled jar will be in the `build/libs` folder.
+If you want to revert the changes, delete the tiles folder (`<install path>/rom/data/tiles`) and 
+verify the integrity of the game files via Steam.
 
 
 
@@ -82,28 +43,6 @@ pause
 ## License
 
 Distributed under the Apache 2.0 License. See [`LICENSE`][license-url] for more information.
-
-
-
-<!-- SUPPORT -->
-
-## Support
-
-For support, please join the [Discord Server](https://discord.gg/SH7VyYtuC2). Once you join, you can ask your question in the `#community-support` channel.  
-**Do not ask questions via the issue tracker.**
-
-
-
-
-
-<!-- CONTACT -->
-
-## Contact
-
-[@Twitter](https://twitter.com/InsprillO_O)  
-[@SpigotMC](https://www.spigotmc.org/members/724062/)  
-[@Discord](https://discord.gg/SH7VyYtuC2)
-
 
 
 
@@ -121,3 +60,5 @@ For support, please join the [Discord Server](https://discord.gg/SH7VyYtuC2). On
 [issues-url]: https://github.com/Insprill/StormworksEditAreaResizer/issues
 [license-shield]: https://img.shields.io/github/license/Insprill/StormworksEditAreaResizer.svg?style=for-the-badge
 [license-url]: https://github.com/Insprill/StormworksEditAreaResizer/blob/master/LICENSE
+[maven-central-shield]: https://img.shields.io/maven-central/v/net.insprill/StormworksEditAreaResizer
+[maven-central-url]: https://mvnrepository.com/artifact/net.insprill/StormworksEditAreaResizer

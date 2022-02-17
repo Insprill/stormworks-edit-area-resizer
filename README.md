@@ -24,17 +24,14 @@
 
 ## Usage
 
-If you're unsure how to run Python scripts, follow [this](https://realpython.com/run-python-scripts/) tutorial.  
+1. Download and run the `StormworksEditAreaResizer.exe` file from the [latest release](https://github.com/Insprill/StormworksEditAreaResizer/releases/latest).
+2. Enter the installation path to Stormworks (eg. `C:\Program Files (x86)\Steam\steamapps\common\Stormworks`)
+3. Enter the desired size for all edit areas (1-255).
 
-Once you run it you'll be prompted to enter the path to your stormworks installation  
-(eg. `C:\Program Files (x86)\Steam\steamapps\common\Stormworks`)  
-and the new size. This can be anywhere from 1 to 255.
-
-Then the script will modify every edit area in the game to the new size.
+Once the script finishes you're good to go!
 
 If you want to revert the changes, delete the tiles folder (`<install path>/rom/data/tiles`) and 
 verify the integrity of the game files via Steam.
-
 
 
 

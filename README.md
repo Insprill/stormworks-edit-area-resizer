@@ -2,7 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GNU License][license-shield]][license-url]
+[![Apache 2.0 License][license-shield]][license-url]
 
 
 
@@ -81,9 +81,7 @@ pause
 
 ## License
 
-Distributed under the GNU General Public License v3.0.  
-See [LICENSE](https://github.com/Insprill/StormworksEditAreaResizer/blob/master/LICENSE) for more information.
-
+Distributed under the Apache 2.0 License. See [`LICENSE`][license-url] for more information.
 
 
 
@@ -122,4 +120,4 @@ For support, please join the [Discord Server](https://discord.gg/SH7VyYtuC2). On
 [issues-shield]: https://img.shields.io/github/issues/Insprill/StormworksEditAreaResizer.svg?style=for-the-badge
 [issues-url]: https://github.com/Insprill/StormworksEditAreaResizer/issues
 [license-shield]: https://img.shields.io/github/license/Insprill/StormworksEditAreaResizer.svg?style=for-the-badge
-[license-url]: https://github.com/Insprill/StormworksEditAreaResizer/blob/master/LICENSE.txt
+[license-url]: https://github.com/Insprill/StormworksEditAreaResizer/blob/master/LICENSE
